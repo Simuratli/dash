@@ -1,0 +1,158 @@
+.music{
+    width: 70%;
+    background-color: #131313;
+    margin: 2em auto;
+    border-radius: 5px;
+
+}
+
+.music_container_double{
+    display: flex;
+    width: 100%;
+}
+
+
+
+.music_head{
+    display: flex;
+    align-items: center;
+}
+
+.music-genre{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 3em;
+    flex: 3;
+    border-bottom: 1px solid #5C5C5C;
+    
+}
+
+.idHead{
+    width: 53px;
+}
+
+.musicanNameHead{
+    width: 157px;
+}
+
+.bright{
+    border-right: 1px solid #5C5C5C;
+}
+.music_table_list{
+    display: flex;
+}
+
+.genre-box{
+    width: 100%;
+}
+
+.border {
+    border: 1px solid #5C5C5C;
+}
+
+.id{
+    width: 70px;
+    display: grid;
+    place-content: center;
+}
+
+.musicianName{
+    width: 200px;
+    display: grid;
+    place-content: center;
+}
+
+.music_links{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: 100%;
+    padding: 0 1em;
+}
+
+.music_url{
+   flex: 3;
+}
+
+.genre-box{
+    flex: 2;
+}
+
+.music_selectbox{
+    padding: 0.42em;
+    border: 0;
+    outline: none;
+    background-color: #292929;
+    border-radius: 5px;
+    color: white;
+}
+
+.bright{
+    height: 3em;
+    display: grid;
+    place-content: center;
+}
+
+.dots button {
+    background-color: transparent;
+    color: white;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+@media(max-width:1024px){
+    .musicanNameHead{
+        width: 141px;
+    }
+}
+
+@media(max-width:768px){
+    .musicanNameHead{
+        width: 124px;
+    }
+    .idHead{
+        width: 46px;
+    }
+}
+
+@media(max-width:425px){
+    .music_head{
+        display: none;
+    }
+    .music_table_list{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .music_table_list div{
+        width: 100% !important;
+    }
+    .musicianName{
+        padding: 1em 0;
+    }
+    .id{
+        padding: 1em 0;
+    }
+    .music_links{
+        flex-direction: column ;
+       
+    }
+    .music_selectbox{
+        width: 100%;
+    }
+    .music_url{
+        width: 100%;
+    }
+    .dots{
+        padding: 1em 0;
+        text-align: center;
+    }
+    .dots button {
+        font-size: 20px;
+        background-color: transparent;
+        color: white;
+        border: 0;
+    }
+}

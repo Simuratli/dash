@@ -1,0 +1,35 @@
+.modal{
+    z-index: 12;
+    background-color: #131313;
+    height: 80vh;
+    width: 50vw;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+.modal-outline{
+    background-color: rgba(0, 0, 0, 0.404);
+    width: 100%;
+    height: 100vh;
+    display: none;
+    top: 0;
+    position: fixed;
+    z-index: 10;
+    place-content: center;
+}
+
+.modal-outline.openModal{
+    display: grid !important;
+}
+
+.music-name{
+    gap: 10px;
+}
+
+.music-name h1{
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    margin: 0.5em 0;
+}

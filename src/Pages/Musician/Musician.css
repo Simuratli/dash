@@ -1,0 +1,109 @@
+.musician{
+    background-color: #131313;
+    width: 50%;
+    min-height: 50vh;
+    margin: 2em auto;
+    border-radius: 5px;
+
+}
+
+
+.musician_head{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 1.5em 0;
+    
+}
+
+.musician_content{
+    padding: 2em 3em;
+}
+.musician_button{
+    color:#5C5C5C ;
+}
+.musician_button label{
+    background-color: #292929;
+    display: block;
+    width: max-content;
+    padding: 0.5em 1.5em;
+    border-radius: 5px;
+    margin: 0.5em 0;
+    color:white ;
+}
+.musician_button input{
+    position: absolute;
+    z-index: -1;
+    visibility: hidden;
+}
+.music_links{
+    border-bottom: 1px solid #5C5C5C;
+}
+.musician_bottom_buttons{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 25%;
+}
+
+.musician_submit_btn{
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+
+.musician_search_button{
+    padding: 0.5em 1em;
+    background-color: #292929;
+    color: #5C5C5C;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+
+.musician_search_button.activebutton{
+    color: white;
+}
+.musician_selectbox label{
+    display: block;
+    margin: 0.3em 0;
+    color: #5C5C5C;
+}
+
+.musician_selectbox{
+    margin: 1.5em 0;
+}
+
+.musician_selectbox select {
+    padding: 0.5em 1em;
+    outline: none;
+    background-color: #292929;
+    border: 0;
+    color: #5C5C5C;
+    width: 50%;
+    border-radius: 5px;
+}
+
+@media(max-width:768px){
+    .musician{
+        width: 70%;
+    }
+    .musician_submit_btn{
+        width: 50%;
+    }
+    .musician_selectbox select {
+        width: 100%;
+    }
+    
+}
+
+@media(max-width:425px){
+    .musician{
+        width: 90%;
+    }
+    .musician_submit_btn{
+        width: 70%;
+    }
+    
+}

@@ -1,0 +1,27 @@
+.logo{
+    width: 120px;
+    margin: 2em 0;
+}
+
+.navbar{
+    width: 100%;
+    text-align: center;
+}
+
+.navbar-content{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar-content a{
+    text-decoration: none;
+    color: white;
+    height: 30px;
+}
+
+.navbar-content a.active{
+    border-bottom: 1px solid white;
+}

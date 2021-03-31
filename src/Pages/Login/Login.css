@@ -1,0 +1,31 @@
+.login{
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+
+.login_form_container{
+    background-color: #131313;
+    display: inline-block;
+    width: max-content;
+    border-radius: 5px;
+}
+
+.login-form{
+    padding: 20px 70px;
+}
+
+.login-logo{
+    margin: 0 auto;
+    width: 120px;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+@media(max-width:320px){
+    .login-form{
+        padding: 20px 40px;
+    }
+}
